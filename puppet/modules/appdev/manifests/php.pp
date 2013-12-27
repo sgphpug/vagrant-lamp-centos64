@@ -2,7 +2,8 @@ class appdev::php
 {
 	package { [
 			"uuid-php",
-			"xcache-admin"
+			"xcache-admin",
+			"phpMyAdmin"
 		]:
 			ensure => present,
 			require => Yumrepo['epel']
@@ -39,7 +40,8 @@ class appdev::php
 			'pear-Net-Curl',
 			'pecl-xhprof',
 			'phpunit-PHPUnit',
-			'phpunit-PHPUnit-MockObject'
+			'phpunit-PHPUnit-MockObject',
+			'process'
 		]:
 		require => [ Class['php::cli'], Yumrepo['epel'], Package['uuid-php'] ]
 	}
