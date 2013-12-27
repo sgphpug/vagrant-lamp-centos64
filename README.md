@@ -25,7 +25,7 @@ $ sudo gem install librarian-puppet
 2. Clone this Git Repository
 
 	```bash
-$ git clone git@github.com:phpugsg/vagrant-lamp-centos64.git
+$ git clone git@github.com:sgphpug/vagrant-lamp-centos64.git
 $ cd vagrant-lamp-centos64
 ```
 
