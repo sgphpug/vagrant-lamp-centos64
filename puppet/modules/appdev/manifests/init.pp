@@ -17,7 +17,7 @@ class appdev(
 		[
 			'vim-enhanced',
 			'screen',
-			'git-core'
+			'git'
 		]:
 			ensure => present,
 			require => Yumrepo['epel']
