@@ -1,0 +1,9 @@
+---
+:hierarchy:
+  - %{::hostname}
+  - common
+
+:backends: yaml
+
+:yaml:
+  :datadir: '/vagrant/puppet/manifests/hieradata'

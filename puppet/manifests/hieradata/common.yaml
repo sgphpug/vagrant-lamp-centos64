@@ -1,0 +1,6 @@
+---
+'appdev::root_pwd': 'media1'
+'appdev::dbname': 'appserver'
+'appdev::dbuser': 'appuser'
+'appdev::dbpassword': 'media1'
+'appdev::app_folder': 'appdev'
